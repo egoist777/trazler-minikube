@@ -1,23 +1,23 @@
 replicaCount: 1
 clusterRole:
-  name: restclient-serviceaccount-role
+  name: trazler-serviceaccount-role
   apiGroups: [""]
   resources: ["*"]
   verbs: ["*"]
 
 clusteRoleBinding:
-  name: restclient-serviceaccount-rolebinding
+  name: trazler-serviceaccount-rolebinding
 
 image:
-  restclient:
+  trazler:
     repository: nginx
-    name: restclient
+    name: trazler
     tagName: change
     imagePullPolicy: Never
     
 serviceAccount:
   create: true
-  name: restclient-serviceaccount
+  name: trazler-serviceaccount
 
 
 service:
@@ -27,7 +27,7 @@ service:
   nodePort: 30082
 
 ingress:
-  name: restclient-ingress
+  name: trazler-ingress
   host: trazler.info
   path: /
   pathType: Prefix

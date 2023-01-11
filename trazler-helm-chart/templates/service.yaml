@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ .Release.Name }}-restclient-service
+  name: {{ .Release.Name }}-trazler-service
   labels:
-    app: {{ .Release.Name }}-restclient-service
+    app: {{ .Release.Name }}-trazler-service
 spec:
   type: {{ .Values.service.type }}
   ports:
@@ -14,4 +14,4 @@ spec:
       nodePort: {{ .Values.service.nodePort }}
 
   selector:
-    app: {{ .Release.Name }}-restclient-deploy
+    app: {{ .Release.Name }}-trazler-deploy

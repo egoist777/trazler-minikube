@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: {{ .Release.Name }}-trazler-deploy
+  name: {{ .Release.Name }}-trazler-deploy
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ .Release.Name }}-trazler-deploy
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: {{ .Release.Name }}-trazler-deploy
+    spec:
+      serviceAccountName: {{ .Values.serviceAccount.name }}
+      containers:
+      - image: "{{ .Values.image.trazler.repository }}:{{ .Values.image.trazler.tagName }}"
+        name: {{ .Values.image.trazler.name }}
+        imagePullPolicy: {{ .Values.image.trazler.imagePullPolicy }}

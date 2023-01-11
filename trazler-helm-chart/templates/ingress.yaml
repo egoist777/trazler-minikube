@@ -13,6 +13,6 @@ spec:
             pathType: {{ .Values.ingress.pathType }}
             backend:
               service:
-                name: {{ .Release.Name }}-restclient-service
+                name: {{ .Release.Name }}-trazler-service
                 port:
                   number: {{ .Values.service.port }}
