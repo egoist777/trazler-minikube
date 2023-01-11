@@ -2,9 +2,11 @@ The instruction works only for minikube setup:
 
 Execute the following script  
 
-./install_script.sh  
+sudo ./install_script.sh  
 
-Pass the tag name you want to use for the docker image and the release name for your helm application
+Pass the 'tag' you want to use for the docker image and the 'release name' for your helm application
+
+After the script execution you can access the website at ---> trazler.info:<port-number-given-by-minikube>
 
 To delete the release:
 
