@@ -1,0 +1,136 @@
+@import "utils/mixins";
+
+:root {
+  --color-main-purple: #7A65E1;
+  --color-main-mob-purple: #6F1DF4;
+  --color-main-mob-blink: #E4DEFF;
+  --color-main-text: #2F0A4D;
+  --color-dark-gray: #4A4A4A;
+  --color-light-gray: #828282;
+  --color-main-blue: #298AFF;
+  --color-main-blue-light: #F7F9FD;
+  --color-disabled-mob-border: #F1EEFB;
+  --color-main-orange: #FFA500;
+  --color-button-orange: #febb02;
+  --color-main-red: #FF6767;
+  --color-red: red;
+  --color-reject-border-red: #d71c22;
+  --mob-light-red: #FF6666;
+  --color-main-green: #6CBF10;
+  --mob-light-red: #FF6666;
+  --color-main-pink: #E340E9;
+  --color-gray-disabled: #D8D8D8;
+  --color-gray-light: #D0D2DB;
+  --color-main-dark-blue: #0A66C2;
+  --color-element-gray-border: #E9E9E9;
+  --color-text-light-gray: #9B9B9B;
+  --color-text-typography-gray: #A4A4A4;
+  --color-primary-white: #fff;
+  --color-white-blue: #ebefff;
+  --color-primary-black: #000;
+  --color-blue-buttom: #1877F2;
+  --color-blue-mob-bg: #4F7FFF;
+  --color-blue-white: #C0DCFF;
+  --mobile-gap: 0.625rem;
+  --color-button-grey: #E7E7E7;
+  --color-main-background: #fbfbfb;
+  --color-dark-grey: #35383c;
+  --color-light-footer-grey: #F4F4F4;
+  --color-mobile-white-blue: #f8f9fc;
+  --upgrade-price-green: #6EC013;
+  --upgrade-right-border: #E5E5E5;
+  --color-primary-error: #E64646;
+  --color-yellow-disabled: #fffde6;
+  --color-yellow-selected: #FEBB02;
+  --color-yellow-background-light: #ffc358;
+  --color-yellow-background: #ffa90f;
+  --color-yellow-btn: #D98C00;
+  --color-main-hover-purple: #6654BC;
+  --color-main-background-mobile: #ECEDF4;
+  --color-main-text-mobile: #EEF4FB;
+  --color-background-mobile: #f7f8ff;
+  --color-border-mobile: #dddde3;
+  --color-grey-mobile: #2F3136;
+  --color-grey-light-mobile: #5F6368;
+  --color-green-mobile: #69B417;
+  --color-red-mobile: #FF6666;
+  --color-mobile-backaground: #efeff3;
+  --color-mobile-gray-backaground: #9d9d9d;
+  --color-text-mobile: #202124;
+  --color-text-disabled-mobile: #a6a6a7;
+  --color-flight-direction-mobile: #B9BCBE;
+  --color-flight-direction-dot-mobile: #C4C4C4;
+  --color-flight-direction--dot-mobile: #C4C4C4;
+  --ion-color-primary-border: #dee2e6;
+  --color-loading-bg-purple: #946EFA;
+  --color-main-dark-purple: rgb(47, 10, 77);
+  --color-main-dark-purple-opacity-1: rgba(47, 10, 77, 0.1);
+  --color-main-dark-purple-opacity-2: rgba(47, 10, 77, 0.2);
+  --color-main-dark-purple-opacity-3: rgba(47, 10, 77, 0.3);
+  --color-main-dark-purple-opacity-4: rgba(47, 10, 77, 0.4);
+  --color-main-dark-purple-opacity-5: rgba(47, 10, 77, 0.5);
+  --color-main-dark-purple-opacity-6: rgba(47, 10, 77, 0.6);
+  --color-bg-image-count: rgba(0, 0, 0, 0.2);;
+  --color-main-blue-dark: #0A66C2;
+  --color-light-blue: #3ec2d1;
+  --color-mob-black: #000000;
+  --color-mob-white: #FFFFFF;
+  --color-mob-input-focus: #808089;
+  --color-mob-input-error: #FF424F;
+  --color-mob-input-read-only: #FFFDE8;
+
+  --color-main-dark-blue: #0F294D;
+  --color-main-dark-blue-opacity-2: rgba(239, 237, 255, 0.25);
+  --color-hover-blue-opacity-3: rgb(233, 231, 248);
+
+  --color-border-light-gray: rgba(181, 181, 181, 0.2);
+    --color-background-modal: rgba(0, 0, 0, 0.19);
+  --color-search-input-bg: #f3f0fa;
+  --color-search-input-border: #f8f8f8;
+
+  --font-weight-normal: 400;
+  --font-weight-regular: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --header-height: 5rem;
+  --footer-height: 2.75rem;
+  --results-search-bar: 3.75rem;
+  --sidebar-width: 18.125rem;
+
+  /* borders */
+  --app-border-radius: 4px;
+  --selected-border: 3px solid #FFAA2F;
+  --selected-border-radius: 3px;
+
+  --confirmation-dialog-z-index: 30000;
+
+  --mob-confirm-box-z-index: 9;
+
+    //--tz-color-primary: #7A65E1;
+    //--tz-color-primary-rgb: 122, 101, 225;
+    //--tz-color-success: #69B417;
+    //--tz-color-success-rgb: 105, 180, 23;
+    //--tz-color-warning: #FEBB02;
+    //--tz-color-warning-rgb: 254, 187, 2;
+    //--tz-color-danger: #FF6666;
+    //--tz-color-danger-rgb: 255, 102, 102;
+    //--tz-color-light: #FAFEFF;
+    //--tz-color-light-rgb: 250, 254, 255;
+    //--tz-color-light-gray: #BDC1C6;
+    //--tz-color-light-gray-rgb: 189, 193, 198;
+    //--tz-color-dark: #202124;
+    //--tz-color-dark-rgb: 32, 33, 36;
+    //--tz-color-dark-gray: #BDC1C6;
+    //--tz-color-dark-gray-rgb: #BDC1C6;
+    //
+    //--tz-color-tertiary: #298AFF;
+
+}
+
+
+@include mobile {
+    :root {
+        --color-main-text: --color-grey-mobile;
+    }
+}

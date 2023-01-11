@@ -1,0 +1,9 @@
+@import "utils/mixins";
+
+.baggage-add-remove-btn--disabled {
+    @include mobile {
+        svg path {
+            fill: var(--color-border-mobile);
+        }
+    }
+}

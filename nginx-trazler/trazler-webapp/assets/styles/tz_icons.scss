@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "tz-icons";
+    src: url("../fonts/tz-icons/tz-icons.eot?52ea7j");
+    src: url("../fonts/tz-icons/tz-icons.eot?52ea7j#iefix") format("embedded-opentype"),
+        url("../fonts/tz-icons/tz-icons.ttf?52ea7j") format("truetype"),
+        url("../fonts/tz-icons/tz-icons.woff?52ea7j") format("woff"),
+        url("../fonts/tz-icons/tz-icons.svg?52ea7j#tz-icons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="tz-icon-"],
+[class*=" tz-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "tz-icons" !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    color: inherit;
+    font-size: 1.25rem;
+}
+
+.tz-icon-review:before {
+    content: "\e90f";
+}
+
+.tz-icon-service-flight:before {
+    content: "\e902";
+}
+
+.tz-icon-service-hotel:before {
+    content: "\e906";
+}
+
+.tz-icon-service-rental:before {
+    content: "\e907";
+}
+
+.tz-icon-service-train:before {
+    content: "\e908";
+}
+
+.tz-icon-service-transfer:before {
+    content: "\e90e";
+}
+
+.tz-icon-flight:before {
+    content: "\e902";
+}
+
+.tz-icon-hotel:before {
+    content: "\e906";
+}
+
+.tz-icon-rental:before {
+    content: "\e907";
+}
+
+.tz-icon-train:before {
+    content: "\e908";
+}
+
+.tz-icon-transfer:before {
+    content: "\e90e";
+}
+
+.tz-icon-summary-head:before {
+    content: "\e91a";
+}
+
+.tz-icon-rating-star:before {
+    content: "\e919";
+}
+
+.tz-icon-map_loc:before {
+    content: "\e918";
+}
+
+.tz-icon-filled-arrow:before {
+    content: "\e915";
+}
+
+.tz-icon-plus:before {
+    content: "\e916";
+}
+
+.tz-icon-minus:before {
+    content: "\e917";
+}
+
+.tz-icon-check-nobg:before {
+    content: "\e914";
+}
+
+.tz-icon-clear:before {
+    content: "\e913";
+}
+
+.tz-icon-search_txt:before {
+    content: "\e910";
+    font-size: 1.25rem;
+}
+
+.tz-icon-restore:before {
+    content: "\e911";
+}
+
+.tz-icon-compass:before {
+    content: "\e912";
+}
+
+.tz-icon-arrow:before {
+    content: "\e900";
+}
+
+.tz-icon-tune:before {
+    content: "\e901";
+}
+
+.tz-icon-person:before {
+    content: "\e903";
+}
+
+.tz-icon-location:before {
+    content: "\e904";
+    font-size: 1.5rem;
+}
+
+.tz-icon-activity:before {
+    content: "\e905";
+}
+
+.tz-icon-search:before {
+    content: "\e909";
+}
+
+.tz-icon-trip-flight:before {
+    content: "\e90a";
+}
+
+.tz-icon-date_range:before {
+    content: "\e90b";
+    font-size: 1.5rem;
+}
+
+.tz-icon-compare_arrows:before {
+    content: "\e90c";
+}
+
+.tz-icon-airline_seat:before {
+    content: "\e90d";
+}

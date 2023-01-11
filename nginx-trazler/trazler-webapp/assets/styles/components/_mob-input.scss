@@ -1,0 +1,82 @@
+
+.tz-mob-input {
+    $parent: &;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+
+    &:has(&__status-icon) {
+        #{$parent}__field input {
+            padding: 0.59375rem 2.5rem 0.59375rem 1rem;
+        }
+    }
+
+    &:has(&__error-message) {
+        #{$parent}__field input:not(:read-only) {
+            border-color: var(--color-mob-input-error);
+
+            &:focus {
+                border-color: var(--color-mob-input-error);
+            }
+        }
+    }
+
+    &__name {
+        font-weight: 500;
+        font-size: 0.875rem;
+        color: var(--color-text-mobile);
+        line-height: 150%;
+    }
+
+    &__field {
+        position: relative;
+        input {
+            width: 100%;
+            height: 2.5rem;
+            background-color: var(--color-mob-white);
+            border: 1px solid var(--color-gray-light);
+            color: var(--color-text-mobile);
+            border-radius: 0.25rem;
+            outline: 0;
+            padding: 0.5rem 0.5rem 0.5rem 1rem;
+
+            font-weight: 400;
+            font-size: 0.875rem;
+            line-height: 150%;
+
+            &:focus {
+                border-color: var(--color-mob-input-focus);
+            }
+
+            &:read-only {
+                border-color: var(--color-gray-light);
+                background-color: var(--color-mob-input-read-only);
+                color: var(--color-grey-light-mobile);
+            }
+        }
+    }
+
+    &__error-message {
+        font-weight: 400;
+        font-size: 0.75rem;
+        color: var(--color-mob-input-error);
+        line-height: 150%;
+
+        tz-form-error {
+            padding-left: 0;
+        }
+    }
+
+    &__status-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        position: absolute;
+        right: 0.5rem;
+        top: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translate(0, -50%);
+    }
+}

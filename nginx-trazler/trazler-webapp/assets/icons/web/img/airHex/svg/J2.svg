@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xml:space="preserve" width="210mm" height="210mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 21000 21000" id="svg17" sodipodi:docname="upgrade-s.svg" inkscape:version="0.92.2 5c3e80d, 2017-08-06" enable-background="new">
+ <metadata id="metadata21">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1280" inkscape:window-height="694" id="namedview19" showgrid="false" inkscape:zoom="0.29734127" inkscape:cx="265.79606" inkscape:cy="262.32483" inkscape:window-x="25" inkscape:window-y="28" inkscape:window-maximized="0" inkscape:current-layer="Layer"/>
+ <defs id="defs11">
+  <style type="text/css" id="style2">
+   <![CDATA[
+       .fil0 {fill:url(#id0)}
+      ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="14615.8" y1="17870.4" x2="-5614.8" y2="11577.8">
+   <stop offset="0" style="stop-color:#9D9E9E" id="stop4"/>
+   <stop offset="0.270588" style="stop-color:#CDCECE" id="stop6"/>
+   <stop offset="1" style="stop-color:#FEFEFE" id="stop8"/>
+  </linearGradient>
+  <filter inkscape:collect="always" style="color-interpolation-filters:sRGB" id="filter936">
+   <feBlend inkscape:collect="always" mode="darken" in2="BackgroundImage" id="feBlend938"/>
+  </filter>
+ </defs>
+ <g id="Layer">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2257.75878906px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:26.45833206;filter:url(#filter936)" x="889.83032" y="3114.407" id="text870" transform="matrix(0.86079119,0,0,0.83738439,9674.4221,3239.3995)">
+   <tspan sodipodi:role="line" id="tspan868" x="1249.2198" y="3114.407" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2257.75878906px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:26.45833206">Contact us to </tspan>
+   <tspan sodipodi:role="line" x="889.83038" y="5936.6055" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2257.75878906px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:26.45833206" id="tspan940">activate vector</tspan>
+   <tspan sodipodi:role="line" x="1249.2198" y="8758.8037" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2257.75878906px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:26.45833206" id="tspan872">logos for your </tspan>
+   <tspan sodipodi:role="line" x="889.83063" y="11581.002" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2257.75878906px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:26.45833206" id="tspan942">account:</tspan>
+   <tspan sodipodi:role="line" x="889.82996" y="14403.201" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2257.75878906px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:26.45833206" id="tspan874">support@airhex.com</tspan>
+  </text>
+ </g>
+</svg>

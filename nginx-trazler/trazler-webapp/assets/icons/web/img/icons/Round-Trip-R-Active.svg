@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/Round-Trip/R-Active</title>
+    <g id="Icons/Round-Trip/R-Active" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icond/Round-Trip">
+            <polygon id="Icon-Round-Trip" points="0 0 24 0 24 24 0 24"></polygon>
+            <path d="M7.99,12 L7.99,15 L15,15 L15,17 L7.99,17 L7.99,20 L4,16 L7.99,12 Z M16.01,4 L20,8 L16.01,12 L16.01,9 L9,9 L9,7 L16.01,7 L16.01,4 Z" id="Combined-Shape" fill="#D8D8D8"></path>
+        </g>
+    </g>
+</svg>

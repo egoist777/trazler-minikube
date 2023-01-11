@@ -1,0 +1,254 @@
+@import "utils/mixins";
+
+.search-option {
+    line-height: 1.5rem;
+    color: var(--color-main-text);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+
+    .tz-icon {
+        font-size: 1.5rem;
+        margin-right: 0.25rem;
+    }
+
+    .tz-icon-arrow {
+        margin-left: 0.125rem;
+        font-size: 1.5rem;
+        color: var(--color-main-dark-purple-opacity-4);
+    }
+
+    .tz-icon::before {
+        color: var(--color-main-dark-purple-opacity-2) !important;
+    }
+}
+
+.input-field-component {
+    width: inherit;
+    height: 100%;
+    position: relative;
+
+    input {
+        width: 100%;
+        height: 100%;
+        background: var(--color-light-footer-grey);
+        border: 0.5px solid var(--color-search-input-border);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        border-radius: 4px;
+        padding-left: 42px;
+        padding-right: 2.3rem;
+        color: var(--color-main-dark-purple);
+        font-weight: var(--font-weight-normal);
+        font-size: 1rem;
+        line-height: 1.5rem;
+        outline: none;
+
+        &.mob {
+            height: 3rem;
+            background-color: transparent;
+            border: 1px solid var(--color-border-mobile);
+        }
+
+        &::placeholder {
+            color: var(--color-main-dark-purple);
+            font-weight: var(--font-weight-normal);
+        }
+
+        &:focus {
+            border-color: var(--color-main-purple);
+            background-color: var(--color-primary-white);
+            &::placeholder {
+                opacity: 10%;
+            }
+        }
+
+        &.optional-field::placeholder {
+            color: var(--color-main-dark-purple-opacity-5);
+        }
+
+        @include tz-media-breakpoint-down(1220px) {
+            font-size: 0.875rem;
+        }
+    }
+
+    &.calendar input {
+        padding-right: 10px;
+        padding-left: 39px;
+
+        @include mobile {
+            padding: 0.75rem 1rem 0.75rem 1.75rem;
+
+            &, &::placeholder {
+                font-weight: 400;
+                font-size: 0.875rem;
+                line-height: 1.5rem;
+                color: var(--color-text-mobile);
+            }
+        }
+    }
+
+    &.calendar .field-icon  {
+        left: 13px;
+
+        @include mobile {
+            left: 0.68rem;
+            top: 1.5rem;
+        }
+    }
+
+    .field-icon {
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        transform: translate(0px, -50%);
+        width: fit-content;
+        font-size: 1.5rem;
+        color: var(--color-main-dark-purple-opacity-2);
+    }
+
+    // input:focus + .field-icon,
+    /*input:not(:placeholder-shown) ~ .field-icon {
+      color: var(--color-main-dark-purple);
+    }*/
+
+    .tz-icon-clear {
+        display: none;
+        left: auto;
+        right: 1rem;
+        font-size: 0.9rem;
+        cursor: pointer;
+    }
+
+    input:not(:placeholder-shown) ~ .tz-icon-clear {
+        display: inline;
+        color: var(--color-main-dark-purple-opacity-2);
+    }
+
+    .tz-icon-compare_arrows {
+        padding: 0.375rem;
+        background-color: var(--color-primary-white);
+        border-radius: 4px;
+        position: absolute;
+        width: fit-content;
+        top: 25%;
+        left: -20px;
+        z-index: 1;
+        cursor: pointer;
+        display: none;
+        color: var(--color-main-dark-purple-opacity-4);
+
+        /*@include tz-media-breakpoint-down(720px) {
+                top: 80%;
+                right: 10px;
+                transform: rotate(90deg);
+            }*/
+    }
+
+    &.show-invert {
+        /*input {
+            padding-left: 2.875rem;
+        }
+
+        .field-icon:not(.tz-icon-clear) {
+            left: 15px;
+        }*/
+
+        .tz-icon-compare_arrows {
+            display: flex;
+        }
+    }
+}
+
+.edit-search {
+    .input-field-component {
+        height: auto;
+
+        input {
+            width: 100%;
+            height: 40px;
+
+            &.mob {
+                height: 3rem;
+                background-color: transparent;
+                border: 1px solid var(--color-border-mobile);
+            }
+
+            background: #ffffff;
+            border-radius: 4px;
+
+            &::placeholder {
+                color: var(--color-main-dark-purple);
+                font-weight: var(--font-weight-normal);
+            }
+        }
+
+        input, &.calendar input {
+            padding-left: 2.25rem;
+        }
+
+        .field-icon, &.calendar .field-icon {
+            &:not(.tz-icon-clear) {
+                left: 0.625rem;
+            }
+        }
+
+        .tz-icon-compare_arrows {
+            height: 1.5rem;
+            width: 1.5rem;
+            background: var(--color-main-purple);
+            border-radius: 0.25rem;
+            color: var(--color-primary-white);
+            left: -1.063rem;
+            top: 50%;
+            transform: translate(0px, -50%);
+
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+        }
+    }
+
+    &.no-edit-fld {
+        .input-field-component {
+            border-left: 1px solid #cecfe7;
+
+            input {
+                background: inherit;
+                border: 0;
+            }
+
+            .tz-icon-compare_arrows,
+            .tz-icon-clear {
+                display: none;
+            }
+        }
+    }
+}
+
+.md-drppicker {
+    width: max-content !important;
+    top: 70px !important;
+
+    .btn {
+        padding: 0.5rem 1rem !important;
+        background-color: var(--color-main-purple) !important;
+        text-transform: capitalize !important;
+        line-height: unset !important;
+
+        &.clear {
+            color: var(--color-text-light-gray) !important;
+            border: 1px solid var(--color-element-gray-border) !important;
+            background-color: #fff !important;
+            margin-right: 0.5rem;
+            svg {
+                display: none;
+            }
+        }
+    }
+}
+
+.hide-cal ~ ngx-daterangepicker-material{
+    display: none;
+}

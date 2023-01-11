@@ -1,0 +1,45 @@
+.tz-mob-btn {
+    &, &:hover, &:active, &:focus {
+        height: 2.5rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.25rem;
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        border: 0;
+        outline: 0;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    &.tz-mob-btn-purple {
+        background: var(--color-main-purple);
+        color: var(--color-main-text-mobile);
+    }
+
+    &.tz-mob-btn-yellow,
+    &.tz-mob-btn-dropdown {
+        background: var(--color-button-orange);
+        color: var(--color-main-text-mobile);
+
+        .dropdown-selected {
+            margin-right: 0.125rem;
+        }
+    }
+
+    &.tz-mob-btn-white {
+        background: var(--color-mob-white);
+        border: 1px solid var(--color-gray-light);
+        color: var(--color-grey-light-mobile);
+    }
+
+    &.tz-mob-btn-gray-disabled {
+        background: var(--color-button-grey);
+        color: var(--color-gray-light);
+        pointer-events: none;
+        cursor: default;
+    }
+}

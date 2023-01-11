@@ -1,0 +1,442 @@
+@import "utils/mixins";
+
+.tz-btn {
+    font-size: 0.875rem;
+    line-height: 1.188rem;
+    letter-spacing: 0.01em;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: var(--font-weight-semibold);
+    font-family: var(--ion-font-family);
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    box-shadow: none;
+    display: inline-block;
+
+    &.passive {
+        pointer-events: none;
+    }
+
+    @include mobile {
+      padding: 0.5rem 1.25rem;
+      height: 2.5rem;
+    }
+}
+
+.tz-btn--select {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 0.625rem 1.25rem;
+    min-width: 7.8125rem;
+}
+
+.tz-btn-primary {
+    background: var(--ion-color-primary);
+    color: var(--ion-color-primary-contrast);
+
+    @include on-hover {
+        background: #6655BD;
+        color: var(--ion-color-primary-contrast);
+    }
+
+    &.passive {
+        background-color: #AFA4E2;
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+.tz-btn-secondary {
+    box-shadow: 0 0 0 1px var(--ion-color-primary);
+    background: var(--ion-color-primary-contrast);
+    color: var(--ion-color-primary);
+
+    @include mobile {
+      box-shadow: unset;
+      outline: 1px solid var(--color-gray-light);
+      color: var(--color-grey-light-mobile);
+    }
+
+    @include on-hover {
+        box-shadow: 0 0 0 1px #6655BD;
+        color: #6655BD;
+    }
+
+    &.passive {
+        box-shadow: 0 0 0 1px #AFA4E2;
+        color: rgba(122, 101, 225, 0.6);
+    }
+}
+
+.tz-btn-yellow {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.01em;
+    color: var(--ion-color-primary-contrast);
+    background: var(--ion-color-warning);
+
+    @include on-hover {
+        background-color: var(--color-yellow-btn);
+    }
+
+    &.passive {
+        background-color: rgba(255, 165, 0, 0.6);
+        color: rgba(255, 255, 255, 0.6);;
+    }
+}
+
+.tz-btn-cancel {
+    box-shadow: 0 0 0 1px var(--color-main-red);
+    color: var(--color-main-red);
+    background: var(--ion-color-primary-contrast);
+
+    @include on-hover {
+        opacity: 0.8;
+    }
+}
+
+.form-group-container:not(.ng-dirty), .form-group-container.ng-invalid {
+    .tz-btn-primary.save-btn {
+        background-color: #AFA4E2;
+        color: rgba(255, 255, 255, 0.6);
+        pointer-events: none;
+    }
+}
+
+.tz-btn-primary-selected {
+  background: #AFA4E2;
+  color: rgba(255, 255, 255, 0.5);
+
+  @include on-hover {
+    background: #6655BD;
+    color: var(--ion-color-primary-contrast);
+  }
+}
+
+.tz-btn-primary-disable {
+  background: #AFA4E2;
+  color: rgba(255, 255, 255, 0.5);
+  user-select: none;
+  cursor: unset !important;
+
+  @include on-hover {
+    background: #AFA4E2;
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.tz-btn-text {
+  padding: 0;
+  color: var(--ion-color-primary);
+  background: transparent;
+  height: max-content;
+  white-space: nowrap;
+  cursor: pointer;
+  font-family: var(--ion-font-family);
+  outline: none;
+
+  @include on-hover {
+    color: var(--ion-color-primary);
+  }
+}
+
+.tz-btn-text-md {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+}
+
+.tz-btn-text-lg {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.tz-btn-link {
+  position: relative;
+  padding: 0;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: var(--ion-font-family);
+  line-height: 1.5rem;
+  color: var(--ion-color-primary);
+  background: transparent;
+  height: max-content;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+
+  @include on-hover {
+    color: var(--ion-color-primary);
+    background: transparent;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    background: var(--ion-color-primary);
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+  }
+}
+
+.tz-popup-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  font-family: var(--ion-font-family);
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.tz-popup-btn-primary {
+  background: var(--ion-color-primary);
+  color: var(--ion-color-primary-contrast);
+
+  @include on-hover {
+    background: #6655BD;
+    color: var(--ion-color-primary-contrast);
+  }
+}
+
+.tz-popup-btn-secondary {
+  background: var(--ion-color-primary-contrast);
+  color: var(--color-grey-light-mobile);
+  border: 0.5px solid var(--ion-color-primary);
+
+  @include on-hover {
+    border-color: #6655BD;
+    color: #6655BD;
+  }
+}
+
+.tz-landing {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-main-orange);
+  border-radius: 0.25rem;
+  padding: 0.75rem 1.25rem;
+  color: var(--ion-color-primary-contrast);
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  cursor: pointer;
+  outline: 0;
+
+  @include on-hover {
+    background: #E58500;
+    color: var(--ion-color-primary-contrast);
+  }
+}
+
+.tz-landing-selected {
+  background: #F5B55C;
+  pointer-events: none;
+
+  @include on-hover {
+    background: #F5B55C;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+.tz-loading-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  background: #FFAB2E;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1.25rem;
+  color: var(--ion-color-primary-contrast);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  cursor: pointer;
+
+  @include on-hover {
+    color: var(--ion-color-primary-contrast);
+    background: #E89010;
+  }
+}
+
+
+button.select-btn {
+  padding: 0.563rem 1.25rem;
+  border: 1px solid rgba(122, 101, 225, 0.5);
+  border-radius: 4px;
+  user-select: none;
+  color: var(--color-main-purple);
+  background-color: transparent;
+  transition: background-color .5s, color .5s;
+  font-weight: var(--font-weight-normal);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  box-shadow: none;
+  cursor: pointer;
+
+    @include on-hover {
+        background-color: var(--color-main-purple);
+        color: var(--color-primary-white);
+    }
+
+    &.selected {
+        background-color: var(--color-main-purple);
+        color: var(--color-primary-white);
+
+        @include on-hover {
+            background-color: var(--color-main-hover-purple);
+        }
+    }
+
+  &.cancel {
+    border-color: var(--color-main-red);
+    color: var(--color-main-red);
+    background: transparent !important;
+  }
+}
+
+a.links-primary {
+  cursor: pointer;
+  color: var(--color-main-purple);
+
+  @include on-hover {
+    color: var(--ion-color-primary-shade);
+  }
+}
+
+.package-btn {
+  z-index: 1;
+  position: absolute;
+  top: calc(50% - 1.563rem);
+  width: 3.75rem;
+  height: 3.125rem;
+  box-shadow: 0 0 0.938rem rgb(0 0 0 / 10%);
+  display: grid;
+  place-items: center;
+  background: var(--color-primary-white);
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+
+  @include on-hover {
+    box-shadow: 0 0 0.938rem rgb(0 0 0 / 20%);
+  }
+
+  &.next-packages {
+    right: -2px;
+    border-radius: 1.563rem 0 0 1.563rem;
+  }
+
+  &.pre-packages {
+    left: -2px;
+    border-radius: 0 1.563rem 1.563rem 0;
+  }
+}
+
+
+/* todo old buttons */
+.tz-select-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 6.25rem;
+  height: 2.5rem;
+  padding: 0 0.5rem;
+  border: 1px solid rgba(122, 101, 225, 0.5);
+  border-radius: 3px;
+  user-select: none;
+  color: var(--ion-color-primary);
+  background-color: transparent;
+  transition: all .5s;
+  font-weight: 400;
+  font-size: 0.938rem;
+  cursor: pointer;
+  white-space: nowrap;
+
+  @include on-hover {
+    background-color: var(--ion-color-primary);
+    color: var(--ion-color-primary-contrast);
+  }
+
+  &--selected {
+    background-color: var(--ion-color-primary);
+    color: var(--ion-color-primary-contrast);
+    transition: all 0.3s;
+
+    @include on-hover {
+      background-color: #6655BD;
+    }
+  }
+}
+
+
+// mobile
+
+.tz-mob-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    color: #EEF4FB;
+}
+
+.tz-mob-btn--tertiary {
+    background: #FEBB02;
+}
+
+@include mobile {
+    button.tz-mob-select-btn {
+        height: 2.5rem;
+        width: 100%;
+        padding: 0.5rem 0;
+        border: 0.0625rem solid var(--color-gray-light);
+        border-radius: 0.25rem;
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        background-color: var(--color-primary-white);
+        color: var(--color-grey-light-mobile);
+
+        &.mob-selected-btn{
+            color: var(--color-primary-white);
+            background-color: var(--color-yellow-selected);
+            border: none;
+        }
+    }
+
+}
+
+.tz-mob-picker-btn {
+    background: var(--color-main-purple);
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    color: var(--color-main-text-mobile);
+    text-align: center;
+}
+
+.tz-mob-picker-disabled-btn {
+    background: var(--color-button-grey);
+    color: var(--color-gray-light);
+    pointer-events: none;
+}

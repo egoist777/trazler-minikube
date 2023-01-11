@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-reviews</title>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-reviews">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <path d="M17,8.43 L17,4 L7,4 L7,8.43 C7,8.78 7.18,9.11 7.49,9.29 L11.67,11.8 L10.68,14.14 L7.27,14.43 L9.86,16.67 L9.07,20 L12,18.23 L14.93,20 L14.15,16.67 L16.74,14.43 L13.33,14.14 L12.34,11.8 L16.52,9.29 C16.82,9.11 17,8.79 17,8.43 Z M13,10.23 L12,10.83 L11,10.23 L11,6 L13,6 L13,10.23 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

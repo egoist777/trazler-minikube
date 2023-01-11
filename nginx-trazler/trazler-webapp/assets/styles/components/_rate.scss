@@ -1,0 +1,20 @@
+.tz-rate-btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1rem;
+  background-color: var(--ion-color-primary);
+  color: var(--ion-color-primary-contrast);
+  border-radius: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.tz-rate-btn--hover {
+  @include on-hover {
+    background-color: var(--ion-color-primary-shade);
+  }
+}

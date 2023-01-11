@@ -1,0 +1,120 @@
+.tooltip.bs-tooltip-top {
+  margin-bottom: 0.25rem !important;
+}
+
+.tooltip.bs-tooltip-top,
+.tooltip.bs-tooltip-bottom,
+.tooltip.bs-tooltip-start,
+.tooltip.bs-tooltip-end {
+  padding: 0 !important;
+  opacity: 1;
+}
+
+.tooltip.bs-tooltip-top,
+.tooltip.bs-tooltip-bottom,
+.tooltip.bs-tooltip-start,
+.tooltip.bs-tooltip-end {
+  pointer-events: none;
+
+  .tooltip-arrow {
+    display: none;
+  }
+
+  .tooltip-arrow::before {
+    content: unset;
+  }
+}
+
+.tooltip.tooltip-mb-1 {
+  margin-bottom: 0.3rem !important;
+}
+
+.tooltip.tooltip-mb-2 {
+  margin-bottom: 0.8rem !important;
+}
+
+.tooltip.tooltip-mb--3 {
+  margin-bottom: -0.5625rem !important;
+}
+
+.tooltip-inner {
+  text-align: center;
+  width: 9.0625rem;
+  border-radius: 3px;
+  padding: 0.625rem;
+  background-color: rgba(0,0,0,.8);
+  box-shadow: 0 2px 10px 0 rgb(0 0 0 / 10%);
+  z-index: 9999;
+  font-size: 0.75rem;
+  color: var(--ion-color-primary-contrast);
+  opacity: 1;
+  position: relative;
+
+  &:after {
+    content: "";
+    bottom: -0.5rem;
+    left: calc(50% - 0.5rem);
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: rgba(0,0,0,.8) transparent transparent;
+    border-style: solid;
+    border-width: 0.5rem 0.5rem 0;
+  }
+}
+
+.bs-tooltip-bottom .tooltip-inner {
+  &:after {
+    top: -0.5rem;
+    transform: rotate(180deg);
+  }
+}
+
+.bs-tooltip-start .tooltip-inner {
+  &:after {
+    bottom: calc(50% - 0.25rem);
+    left: unset;
+    right: -0.75rem;
+    transform: rotate(-90deg);
+  }
+}
+
+.bs-tooltip-end .tooltip-inner {
+  &:after {
+    bottom: calc(50% - 0.25rem);
+    left: -12px;
+    right: unset;
+    transform: rotate(90deg);
+  }
+}
+
+.tooltip.bs-tooltip-top.flight-duration-tooltip {
+  margin-bottom: -0.5rem !important;
+}
+
+.tooltip.bs-tooltip-top.hotel-icons-tooltip {
+  margin-bottom: 0.875rem !important;
+}
+
+.accommodation-category-rating-tooltip {
+  border: 0;
+  max-width: unset;
+  min-width: 17.5rem;
+  margin-bottom: 3px !important;
+
+  .popover-body {
+    text-align: left;
+    min-width: 17.5rem;
+    border-radius: 3px;
+    padding: 0.625rem;
+    background-color: var(--ion-color-primary-contrast);
+    box-shadow: 0 4px 24px 0 rgb(0 0 0 / 24%);
+    z-index: 19;
+    font-size: 0.75rem;
+    color: #2c2c2c;
+  }
+
+  .popover-arrow::before {
+    border-width: 0;
+  }
+}

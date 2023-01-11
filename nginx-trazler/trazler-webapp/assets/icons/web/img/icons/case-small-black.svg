@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>A3D51DDD-EDC2-47A1-9427-DD04A000D1B7</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="T-Icon" transform="translate(-183.000000, -820.000000)">
+            <g id="Icons/Case-Small" transform="translate(178.000000, 813.000000)">
+                <g id="Icons/Case">
+                    <polygon id="Case" points="0 0 24 0 24 24 0 24"></polygon>
+                    <path d="M8,11 L8,9 C8,7.8954305 8.8954305,7 10,7 L14,7 C15.1045695,7 16,7.8954305 16,9 L16,11 L17,11 C18.1045695,11 19,11.8954305 19,13 L19,19 C19,20.1045695 18.1045695,21 17,21 L7,21 C5.8954305,21 5,20.1045695 5,19 L5,13 C5,11.8954305 5.8954305,11 7,11 L8,11 Z M10,9 L10,11 L14,11 L14,9 L10,9 Z" id="Combined-Shape" fill="#4A4A4A" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

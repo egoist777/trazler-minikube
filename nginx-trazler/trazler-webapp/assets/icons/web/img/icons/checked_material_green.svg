@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>C426297D-424F-4257-B247-CD74D41C1813</title>
+    <defs>
+        <polygon id="path-1" points="10 17 5 12 6.41 10.59 10 14.17 17.59 6.58 19 8"></polygon>
+    </defs>
+    <g id="Flight-Flow-Alt" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="T-Results-F-Alt-6-Loader" transform="translate(-370.000000, -762.000000)">
+            <g id="Content" transform="translate(0.000000, 120.000000)">
+                <g transform="translate(350.000000, 228.000000)" id="Upgrade">
+                    <g transform="translate(0.000000, 280.000000)">
+                        <g id="Class-1/Selected">
+                            <g transform="translate(0.000000, 20.000000)">
+                                <g id="List" transform="translate(20.000000, 67.000000)">
+                                    <g id="Check/Green" transform="translate(0.000000, 47.000000)">
+                                        <g>
+                                            <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                                            <g id="Path">
+                                                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                                                <use fill="#6CBF10" xlink:href="#path-1"></use>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

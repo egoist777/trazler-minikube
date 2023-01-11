@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>B7E65992-459F-4A32-A002-6D66E7F3A4C1</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="T-Icon" transform="translate(-52.000000, -544.000000)">
+            <g id="Input/Calendar/Active" transform="translate(50.000000, 543.000000)">
+                <g id="baseline-calendar_today-24px">
+                    <path d="M20,3 L19,3 L19,1 L17,1 L17,3 L7,3 L7,1 L5,1 L5,3 L4,3 C2.9,3 2,3.9 2,5 L2,21 C2,22.1 2.9,23 4,23 L20,23 C21.1,23 22,22.1 22,21 L22,5 C22,3.9 21.1,3 20,3 Z M20,21 L4,21 L4,8 L20,8 L20,21 Z" id="Shape" fill="#7A65E1" fill-rule="nonzero"></path>
+                    <rect id="Rectangle" fill="#7A65E1" fill-rule="nonzero" x="6" y="10" width="3" height="3"></rect>
+                    <rect id="Rectangle-Copy" fill="#7A65E1" fill-rule="nonzero" x="11" y="10" width="3" height="3"></rect>
+                    <rect id="Rectangle-Copy-2" fill="#7A65E1" fill-rule="nonzero" x="6" y="15" width="3" height="3"></rect>
+                    <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

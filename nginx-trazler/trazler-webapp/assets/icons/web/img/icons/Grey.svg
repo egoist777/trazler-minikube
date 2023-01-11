@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>A138687F-39F3-4D58-AA80-5814F78EF44A</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="280" height="140" rx="3"></rect>
+        <filter x="-13.6%" y="-24.3%" width="127.1%" height="154.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Car-Flow-Alt" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="T-Car-Map-UI" transform="translate(-288.000000, -68.000000)">
+            <rect fill="#FBFBFB" x="0" y="0" width="1280" height="1280"></rect>
+            <g id="1-Tooltip" transform="translate(50.000000, 50.000000)">
+                <g id="Bg">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Close-Grey" transform="translate(238.000000, 18.000000)">
+                    <polygon id="Path" fill="#D8D8D8" points="19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12"></polygon>
+                    <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

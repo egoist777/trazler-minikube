@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-sports</title>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-sports">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <g id="Group" transform="translate(2.000000, 2.000000)" fill="#000000" fill-rule="nonzero">
+                <path d="M15.09,9 L19.95,9 C19.79,7.39 19.24,5.89 18.41,4.6 C16.68,5.43 15.42,7.05 15.09,9 Z" id="Path"></path>
+                <path d="M4.91,9 C4.58,7.05 3.32,5.43 1.59,4.6 C0.76,5.89 0.21,7.39 0.05,9 L4.91,9 Z" id="Path"></path>
+                <path d="M13.07,9 C13.39,6.41 14.95,4.21 17.13,3 C15.53,1.37 13.39,0.29 11,0.05 L11,9 L13.07,9 Z" id="Path"></path>
+                <path d="M6.93,9 L9,9 L9,0.05 C6.61,0.29 4.46,1.37 2.87,3 C5.05,4.21 6.61,6.41 6.93,9 Z" id="Path"></path>
+                <path d="M13.07,11 L11,11 L11,19.95 C13.39,19.71 15.54,18.63 17.13,17 C14.95,15.79 13.39,13.59 13.07,11 Z" id="Path"></path>
+                <path d="M1.59,15.4 C3.31,14.57 4.58,12.94 4.91,11 L0.05,11 C0.21,12.61 0.76,14.11 1.59,15.4 Z" id="Path"></path>
+                <path d="M15.09,11 C15.42,12.95 16.68,14.57 18.41,15.4 C19.24,14.11 19.79,12.61 19.95,11 L15.09,11 L15.09,11 Z" id="Path"></path>
+                <path d="M6.93,11 C6.61,13.59 5.05,15.79 2.87,17 C4.47,18.63 6.61,19.71 9,19.95 L9,11 L6.93,11 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

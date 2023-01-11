@@ -1,0 +1,103 @@
+@import "utils/mixins";
+
+:root {
+    --app-height: 100%;
+}
+
+
+.mob-modal-fullscreen {
+    --width: 100%;
+    --height: 100%;
+    --max-height: -webkit-fill-available;
+    --border-radius: 0;
+}
+
+.mob-modal-search,
+.mob-main-modal {
+    --width: 100%;
+    --height: calc(var(--app-height) - 2.5rem);
+    align-items: flex-end;
+    --border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+
+.mob-second-search-modal {
+    --height:  calc(var(--app-height) - 3.125rem);
+    background-color: rgba(0, 0, 0, 0.19);
+    align-items: self-end;
+    --border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+
+.mob-cookie-modal {
+    --width: 100%;
+    --height:  calc(var(--app-height) - 3.125rem);
+    align-items: flex-end;
+    --border-radius: 0.5rem 0.5rem 0rem 0rem;
+
+}
+
+@media only screen and (min-height: 667px) {
+    .mob-cookie-modal {
+    --height:  calc(var(--app-height) - 10.125rem);
+    }
+}
+
+@media only screen and (max-height: 667px) {
+    .mob-cookie-modal {
+        --height:  calc(var(--app-height) - 3.125rem);
+        }
+}
+
+.mob-terms-modal {
+    --width: 100%;
+    --height: calc(var(--app-height) - 2.5rem);
+    align-items: flex-end;
+    --border-radius: 0.5rem 0.5rem 0rem 0rem;
+    background-color: var( --color-background-modal);
+}
+
+.mob-summery-modal {
+    --border-radius: 0.5rem 0.5rem 0rem 0rem;
+    --height: auto;
+    align-items: self-end;
+
+    .ion-page {
+        max-height: calc(100vh - 3.4375rem);
+        min-height: 9.375rem;
+    }
+}
+
+.mob-picker-modal {
+    --height: auto;
+    align-items: flex-end;
+    --border-radius: 0.5rem 0.5rem 0rem 0rem;
+    background-color: rgba(0, 0, 0, 0.19);
+
+    .ion-page {
+    }
+}
+
+.mob-search-datetime-calendar-modal {
+    --height: auto;
+    align-items: self-end;
+
+    .ion-page {
+        max-height: calc(100vh - 3.4375rem);
+        min-height: 25rem;
+    }
+}
+
+.mob-modal-fullscreen.profile-traveler {
+    .mob-main-modal-header-bottom-divider {
+        height: 0.5rem;
+    }
+
+    tz-mob-main-details-modal ion-content {
+        --background: var(--color-main-background-mobile);
+    }
+}
+
+.mob-modal-fullscreen.mobile-car-rental-details-background {
+    ion-content {
+        --background: var(--color-main-background-mobile);
+    }
+}

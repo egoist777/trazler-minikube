@@ -1,0 +1,585 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'trazler';
+  src:
+    url('../fonts/trazler-glyphs/trazler.ttf?wry2jc') format('truetype'),
+    url('../fonts/trazler-glyphs/trazler.woff?wry2jc') format('woff'),
+    url('../fonts/trazler-glyphs/trazler.svg?wry2jc#trazler') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icons/icomoon.eot?jev4wu");
+  src: url("../fonts/icons/icomoon.eot?jev4wu#iefix") format("embedded-opentype"),
+  url("../fonts/icons/icomoon.ttf?jev4wu") format("truetype"),
+  url("../fonts/icons/icomoon.woff?jev4wu") format("woff"),
+  url("../fonts/icons/icomoon.svg?jev4wu#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i.tz-icon-inline-content, .tz-icomoon-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  /* use !important to prevent issues with browser extensions that change fonts */
+
+  font-family: 'trazler' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  align-items: center;
+  justify-content: center;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &.icon-login:before {
+    content: "\e991";
+  }
+  &.icon-pencil:before {
+    content: "\e990";
+  }
+  &.icon-round-trip-r:before {
+    content: "\e98e";
+  }
+  &.icon-round-trip-l:before {
+    content: "\e98f";
+  }
+  &.icon-humburger:before {
+    content: "\e98d";
+  }
+  &.icon-flight-land:before {
+    content: "\e97b";
+  }
+  &.icon-flight-takeoff:before {
+    content: "\e98c";
+  }
+  &.icon-Up-Down:before {
+    content: "\e98b";
+  }
+  &.icon-filter-tablet:before {
+    content: "\e98a";
+  }
+  &.icon-transport:before {
+    content: "\e989";
+  }
+  &.icon-24:before {
+    content: "\e900";
+  }
+  &.icon-accessibility:before {
+    content: "\e901";
+  }
+  &.icon-activities:before {
+    content: "\e902";
+  }
+  &.icon-add-new-card-icon:before {
+    content: "\e903";
+  }
+  &.icon-adult-only:before {
+    content: "\e904";
+  }
+  &.icon-arrow:before {
+    content: "\e905";
+  }
+  &.icon-arrow-left:before {
+    content: "\e906";
+  }
+  &.icon-assignment:before {
+    content: "\e907";
+  }
+  &.icon-bag-options:before {
+    content: "\e908";
+  }
+  &.icon-balcony-terrace:before {
+    content: "\e909";
+  }
+  &.icon-bar:before {
+    content: "\e90a";
+  }
+  &.icon-bath:before {
+    content: "\e90b";
+  }
+  &.icon-bathtub:before {
+    content: "\e90c";
+  }
+  &.icon-beauty-services:before {
+    content: "\e90d";
+  }
+  &.icon-bikes-friendly:before {
+    content: "\e90e";
+  }
+  &.icon-booster:before {
+    content: "\e90f";
+  }
+  &.icon-bowling:before {
+    content: "\e910";
+  }
+  &.icon-breakfast-options:before {
+    content: "\e911";
+  }
+  &.icon-bus:before {
+    content: "\e912";
+  }
+  &.icon-business-corner:before {
+    content: "\e913";
+  }
+  &.icon-business-friendly:before {
+    content: "\e914";
+  }
+  &.icon-cafe:before {
+    content: "\e915";
+  }
+  &.icon-calendar:before {
+    content: "\e916";
+  }
+  &.icon-cancellation-prepayment:before {
+    content: "\e917";
+  }
+  &.icon-car:before {
+    content: "\e918";
+  }
+  &.icon-car-driver-blue:before {
+    content: "\e919";
+  }
+  &.icon-carpeted:before {
+    content: "\e91a";
+  }
+  &.icon-case:before {
+    content: "\e91b";
+  }
+  &.icon-case-small:before {
+    content: "\e91c";
+  }
+  &.icon-casino:before {
+    content: "\e91d";
+  }
+  &.icon-ccc:before {
+    content: "\e91e";
+  }
+  &.icon-check-in:before {
+    content: "\e91f";
+  }
+  &.icon-check-out:before {
+    content: "\e920";
+  }
+  &.icon-child-seat:before {
+    content: "\e921";
+  }
+  &.icon-clear:before {
+    content: "\e922";
+  }
+  &.icon-compass:before {
+    content: "\e923";
+  }
+  &.icon-concierge:before {
+    content: "\e924";
+  }
+  &.icon-condition:before {
+    content: "\e925";
+  }
+  &.icon-couple-friendly:before {
+    content: "\e926";
+  }
+  &.icon-direct-dial-telephone:before {
+    content: "\e927";
+  }
+  &.icon-diving:before {
+    content: "\e928";
+  }
+  &.icon-done-passive-nobg:before {
+    content: "\e929";
+  }
+  &.icon-door:before {
+    content: "\e92a";
+  }
+  &.icon-drop-up-arrow:before {
+    content: "\e92b";
+  }
+  &.icon-entertainment:before {
+    content: "\e92c";
+  }
+  &.icon-event-faciltiies:before {
+    content: "\e92d";
+  }
+  &.icon-face:before {
+    content: "\e92e";
+  }
+  &.icon-facebook:before {
+    content: "\e92f";
+  }
+  &.icon-family-friendly:before {
+    content: "\e930";
+  }
+  &.icon-fitness:before {
+    content: "\e931";
+  }
+  &.icon-flat:before {
+    content: "\e932";
+  }
+  &.icon-flight:before {
+    content: "\e933";
+  }
+  &.icon-flight-outline:before {
+    content: "\e934";
+  }
+  &.icon-fridge:before {
+    content: "\e935";
+  }
+  &.icon-gas:before {
+    content: "\e936";
+  }
+  &.icon-gay-friendly:before {
+    content: "\e937";
+  }
+  &.icon-gear:before {
+    content: "\e938";
+  }
+  &.icon-golf:before {
+    content: "\e939";
+  }
+  &.icon-gray:before {
+    content: "\e93a";
+  }
+  &.icon-guest-16:before {
+    content: "\e93b";
+  }
+  &.icon-hairdryer:before {
+    content: "\e93c";
+  }
+  &.icon-heating:before {
+    content: "\e93d";
+  }
+  &.icon-horse-riding:before {
+    content: "\e93e";
+  }
+  &.icon-hotel:before {
+    content: "\e93f";
+  }
+  &.icon-kids-friendly:before {
+    content: "\e940";
+  }
+  &.icon-kids-friendly-1:before {
+    content: "\e941";
+  }
+  &.icon-kitchenette:before {
+    content: "\e942";
+  }
+  &.icon-laundry:before {
+    content: "\e943";
+  }
+  &.icon-library:before {
+    content: "\e944";
+  }
+  &.icon-lift:before {
+    content: "\e945";
+  }
+  &.icon-linkedin:before {
+    content: "\e946";
+  }
+  &.icon-loader-blue:before {
+    content: "\e947";
+  }
+  &.icon-location:before {
+    content: "\e948";
+  }
+  &.icon-map-loc:before {
+    content: "\e949";
+  }
+  &.icon-mastercard-icon .path1:before {
+    content: "\e94a";
+    color: rgb(255, 152, 0);
+  }
+  &.icon-mastercard-icon .path2:before {
+    content: "\e94b";
+    margin-left: -1em;
+    color: rgb(213, 0, 0);
+  }
+  &.icon-mastercard-icon .path3:before {
+    content: "\e94c";
+    margin-left: -1em;
+    color: rgb(255, 61, 0);
+  }
+  &.icon-meal:before {
+    content: "\e94d";
+  }
+  &.icon-menu:before {
+    content: "\e94e";
+  }
+  &.icon-minibar:before {
+    content: "\e94f";
+  }
+  &.icon-minus:before {
+    content: "\e950";
+  }
+  &.icon-mobile-network:before {
+    content: "\e951";
+  }
+  &.icon-moon:before {
+    content: "\e952";
+  }
+  &.icon-nightclub:before {
+    content: "\e953";
+  }
+  &.icon-no-bag:before {
+    content: "\e954";
+  }
+  &.icon-no-insurance:before {
+    content: "\e955";
+  }
+  &.icon-on-main-road:before {
+    content: "\e956";
+  }
+  &.icon-on-the-beach:before {
+    content: "\e957";
+  }
+  &.icon-open-map:before {
+    content: "\e958";
+  }
+  &.icon-opt:before {
+    content: "\e959";
+  }
+  &.icon-parking:before {
+    content: "\e95a";
+  }
+  &.icon-pet-friendly:before {
+    content: "\e95b";
+  }
+  &.icon-plus:before {
+    content: "\e95c";
+  }
+  &.icon-private-beach:before {
+    content: "\e95d";
+  }
+  &.icon-profile:before {
+    content: "\e95e";
+  }
+  &.icon-pub:before {
+    content: "\e95f";
+  }
+  &.icon-radio:before {
+    content: "\e960";
+  }
+  &.icon-restaurant:before {
+    content: "\e961";
+  }
+  &.icon-reviews:before {
+    content: "\e962";
+  }
+  &.icon-road-dark:before {
+    content: "\e963";
+  }
+  &.icon-room-service:before {
+    content: "\e964";
+  }
+  &.icon-round-trip-l-active:before {
+    content: "\e965";
+  }
+  &.icon-round-trip-r-active:before {
+    content: "\e966";
+  }
+  &.icon-safe:before {
+    content: "\e967";
+  }
+  &.icon-sailing:before {
+    content: "\e968";
+  }
+  &.icon-satellite-tv:before {
+    content: "\e969";
+  }
+  &.icon-search:before {
+    content: "\e96a";
+  }
+  &.icon-seat:before {
+    content: "\e96b";
+  }
+  &.icon-ski:before {
+    content: "\e96c";
+  }
+  &.icon-ski-to-door-access:before {
+    content: "\e96d";
+  }
+  &.icon-smoke-free:before {
+    content: "\e96e";
+  }
+  &.icon-spa:before {
+    content: "\e96f";
+  }
+  &.icon-sports:before {
+    content: "\e970";
+  }
+  &.icon-star:before {
+    content: "\e971";
+  }
+  &.icon-stereo:before {
+    content: "\e972";
+  }
+  &.icon-sugg-location:before {
+    content: "\e973";
+  }
+  &.icon-supermarket:before {
+    content: "\e974";
+  }
+  &.icon-swimming-pool:before {
+    content: "\e975";
+  }
+  &.icon-tea-coffee-maker:before {
+    content: "\e976";
+  }
+  &.icon-tennis:before {
+    content: "\e977";
+  }
+  &.icon-tiled:before {
+    content: "\e978";
+  }
+  &.icon-timeline-end-icon:before {
+    content: "\e979";
+  }
+  &.icon-timeline-start-icon:before {
+    content: "\e97a";
+  }
+  &.icon-tooltip-small:before {
+    content: "\e97c";
+  }
+  &.icon-total:before {
+    content: "\e97d";
+  }
+  &.icon-train:before {
+    content: "\e97e";
+  }
+  &.icon-transfer:before {
+    content: "\e97f";
+  }
+  &.icon-user:before {
+    content: "\e980";
+  }
+  &.icon-veg-friendly:before {
+    content: "\e981";
+  }
+  &.icon-visa-card-icon .path1:before {
+    content: "\e982";
+    color: rgb(0, 0, 0);
+  }
+  &.icon-visa-card-icon .path2:before {
+    content: "\e983";
+    margin-left: -1em;
+    color: rgb(194, 194, 194);
+  }
+  &.icon-warning:before {
+    content: "\e984";
+  }
+  &.icon-washing-machine:before {
+    content: "\e985";
+  }
+  &.icon-water-sports:before {
+    content: "\e986";
+  }
+  &.icon-wellness:before {
+    content: "\e987";
+  }
+  &.icon-wifi:before {
+    content: "\e988";
+  }
+}
+
+tz-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+}
+
+/* icomoon icons */
+
+[class^="service-icon-"],
+[class*=" service-icon-"],
+[class*="traz-icon-"] {
+  //use !important to prevent issues with browser extensions that change fonts
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  // Better Font Rendering ===========
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.service-icon-flight:before {
+  content: "\e903";
+}
+
+.service-icon-train:before {
+  content: "\e90b";
+}
+
+.service-icon-hotel:before {
+  content: "\e902";
+}
+
+.service-icon-transfer:before {
+  content: "\e900";
+}
+
+.service-icon-car:before {
+  content: "\e906";
+}
+
+.traz-icon-filter:before {
+  content: "\e904";
+}
+
+.traz-icon-logIn:before {
+  content: "\e907";
+}
+
+.traz-icon-map:before {
+  content: "\e901";
+}
+
+.traz-icon-edit:before {
+  content: "\e905";
+}
+
+.traz-icon-service-clear:before {
+  content: "\e90a";
+}
+
+.service-icon-compass:before {
+  content: "\e908";
+}
+
+.service-icon-search:before {
+  content: "\e909";
+}
+
+.service-icon-location:before {
+  content: "\e90c";
+}
+
+.traz-icon-plus:before {
+  content: "\e90d";
+}
+
+.traz-icon-trailing:before {
+  content: "\e90e";
+}
+
+.traz-icon-sideWay-flight:before {
+  content: "\e90f";
+}
+
+
+

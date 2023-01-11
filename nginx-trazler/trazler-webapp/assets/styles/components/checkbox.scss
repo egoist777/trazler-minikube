@@ -1,0 +1,24 @@
+.checkbox--primary {
+    .checkbox-icon {
+        background-image: url('/assets/icons/web/icons/check-border.svg') !important;
+    }
+    .checkbox-input:not(:checked) {
+        @include on-hover {
+            + .checkbox-icon:hover {
+                background-image: url("/assets/icons/web/icons/filter-checkbox-hover.svg") !important;
+            }
+        }
+    }
+
+    .checkbox-input:checked + .checkbox-icon:after {
+        background-image: url('/assets/icons/web/icons/check-purple.svg') !important;
+    }
+
+    .checkbox-input:checked {
+        @include on-hover {
+            + .checkbox-icon:after {
+                background-image: url("/assets/icons/web/icons/check-purple-hover.svg") !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-timeline-start-icon</title>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-timeline-start-icon">
+            <polygon id="Path" fill="#000000" fill-rule="nonzero" points="19.9688716 11.9844358 18.5680934 10.5836576 12.9649805 16.1400778 12.9649805 4 11.0038911 4 11.0038911 16.1400778 5.44747082 10.5836576 4 11.9844358 11.9844358 19.9688716"></polygon>
+            <polygon id="Bg-24" points="0 0 24 0 24 24 0 24"></polygon>
+        </g>
+    </g>
+</svg>

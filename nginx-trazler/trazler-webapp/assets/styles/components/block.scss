@@ -1,0 +1,71 @@
+@import "utils/mixins";
+
+.tz-block-with-border {
+  background-color: var(--ion-color-light);
+  outline: 1px solid var(--upgrade-right-border);
+  outline-offset: -1px;
+  border-radius: 3px;
+  padding: 1.25rem;
+
+  @include on-hover {
+    /*outline: 2px solid var(--ion-color-primary);*/
+    background: var(--ion-color-light);
+  }
+}
+
+.block {
+  border-radius: 3px;
+  border: 2px solid var(--upgrade-right-border);
+  transition: all 0.3s;
+  background-color: var(--ion-color-primary-contrast);
+
+  @include on-hover {
+    border-color: var(--ion-color-primary);
+  }
+}
+
+.tz-mob-selected-block {
+    @include mobile {
+        border: 3px solid var(--color-button-orange);
+    }
+}
+
+.tz-mob-selected-inner-border {
+    @include mobile {
+        outline: 0.1875rem solid var(--color-button-orange);
+        outline-offset: -0.1875rem;
+    }
+}
+
+.tz-mob-rejected-cart-item {
+  opacity: 0.4;
+
+  .tz-mob-selected-block {
+    border: none;
+  }
+}
+
+@include mobile {
+.rejected-cart-item {
+  background-color: var(--color-primary-white);
+}
+}
+
+.tz-selected-service-list {
+    outline: var(--selected-border);
+    outline-offset: -3px;
+    border-radius: var(--selected-border-radius);
+
+    @include mobile {
+        outline-color: var(--color-button-orange);
+    }
+}
+
+.tz-mob-item-price-block {
+    height: 3rem;
+    background: #F7F9FD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}

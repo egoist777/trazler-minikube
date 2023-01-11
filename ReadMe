@@ -1,0 +1,11 @@
+The instruction works only for minikube setup:
+
+Execute the following script  
+
+./install_script.sh  
+
+Pass the tag name you want to use for the docker image and the release name for your helm application
+
+To delete the release:
+
+helm delete <release-name>

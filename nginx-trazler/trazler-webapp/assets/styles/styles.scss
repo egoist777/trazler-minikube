@@ -1,0 +1,39 @@
+@import "~@ng-select/ng-select/themes/default.theme.css";
+@import 'components/calendar';
+@import "components/recommended";
+@import "components/block";
+@import "components/block-separator";
+@import "components/dialog";
+@import "components/dropdown";
+@import "components/index";
+@import "components/filter";
+@import "components/flag";
+@import "components/rate";
+@import "components/search-field.scss";
+@import "components/tooltip";
+@import "components/scroll";
+@import "components/skeleton-loader";
+@import "components/mob-modal";
+@import "components/mob-menu";
+@import "components/mob-picker";
+@import "components/mob-form-modal";
+@import "components/passenger";
+@import 'components/mobi-picker';
+@import "components/datetime-calendar";
+@import "components/baggage";
+@import "components/mob_button";
+@import "icons";
+@import "layout/container";
+@import "layout/fixed";
+@import "text-styles.scss";
+@import "tz_icons";
+@import "template";
+@import "uib-dropdown";
+@import "variables";
+
+
+html, body {
+  display: flex;
+  min-height: 100%;
+  flex: 1;
+}

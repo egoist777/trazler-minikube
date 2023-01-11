@@ -1,0 +1,228 @@
+@import "services/car-rental";
+
+mgl-map {
+    .mapbox-improve-map {
+        display: none;
+    }
+
+    .marker-icon {
+        width: fit-content;
+        height: 1.875rem;
+    }
+
+    .selected-marker {
+        z-index: 2;
+    }
+}
+
+.tz-results-map mat-dialog-container {
+    padding: 1.25rem 1.25rem 1.25rem 0.625rem;
+    background: var(--color-main-background);
+
+    .results-map-container,
+    .map-container,
+    mgl-map {
+        width: 100%;
+        height: 100%;
+    }
+
+    .results-map-container {
+        display: flex;
+
+        .map-container {
+            position: relative;
+        }
+
+        .close-map-btn {
+            top: 0.625rem;
+            right: 0.625rem;
+            font-size: 1rem;
+            font-weight: var(--font-weight-regular);
+            color: var(--color-text-light-gray);
+            display: grid;
+            place-items: center;
+        }
+    }
+
+    @include mobile {
+        padding: 0;
+
+        .results-map-container {
+            flex-direction: column;
+
+            .close-map-btn {
+                top: 0.813rem;
+                right: 1rem;
+                font-size: 0.5rem;
+                font-weight: var(--font-weight-regular);
+                color: var(--color-grey-light-mobile);
+
+                background: #F0F0F0;
+                border: 1px solid var(--color-primary-white);
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 0.25rem;
+            }
+        }
+    }
+}
+
+.tz-map-marker {
+    width: 1.25rem;
+    height: 1.875rem;
+    cursor: pointer;
+    border: none;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icons/web/icons/marker_purple.svg");
+
+    &.yellow-marker {
+        background-image: url("/assets/icons/web/icons/marker_yellow.svg");
+        z-index: 2;
+        cursor: default;
+    }
+
+    &.red-marker {
+        background-image: url("/assets/icons/web/icons/marker_red.svg");
+    }
+}
+
+.mapboxgl-popup-content {
+    all: unset;
+}
+
+.mapboxgl-popup {
+    max-width: 355px !important;
+    z-index: 100 !important;
+}
+
+.tz-map-result-block {
+    padding: 0.625rem;
+    border-radius: 3px;
+    outline: 1px solid var(--upgrade-right-border);
+    background: var(--color-primary-white);
+    display: flex;
+    width: 355px;
+
+    .hotel-image {
+        height: 6.58rem;
+        width: 6.58rem;
+        margin-right: 0.65rem;
+        flex-shrink: 0;
+    }
+
+    .hotel-info {
+        width: inherit;
+        display: flex;
+        flex-direction: column;
+
+        .hotel-name {
+            font-size: 1.31rem;
+            line-height: 1.5rem;
+            font-weight: var(--font-weight-regular);
+            margin-bottom: 4px;
+        }
+
+        .hotel-stars {
+            display: inline-flex;
+
+            img {
+                width: 0.875rem;
+            }
+        }
+
+        .hotel-address {
+            font-size: 0.75rem;
+            color: var(--color-text-light-gray);
+            margin-bottom: 4px;
+        }
+
+        .hotel-price {
+            font-size: 1rem;
+            font-weight: var(--font-weight-semibold);
+            margin: auto 0 0 auto;
+        }
+    }
+}
+
+.zoom-in-out {
+    position: absolute;
+    right: 0.625rem;
+    bottom: 1.25rem;
+
+    >div {
+        position: unset;
+        font-size: 2rem;
+        font-weight: 300;
+        color: var(--color-text-light-gray);
+
+        &::before {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
+
+    .zoom-out::before {
+        content: '−';
+    }
+
+    .zoom-in {
+        margin-top: 0.625rem;
+
+        &::before {
+            content: '+';
+        }
+    }
+
+    @include mobile {
+        background: #F0F0F0;
+        outline: 1px solid var(--color-primary-white);
+        border-radius: 0.625rem;
+        right: 1rem;
+        bottom: 3.875rem;
+
+        >div {
+            width: 2.813rem;
+            height: 2.813rem;
+            background-color: transparent;
+            color: #007AFF;
+            font-weight: var(--font-weight-normal);
+            box-shadow: unset;
+
+            &::before {
+                align-items: flex-end;
+            }
+        }
+
+        .zoom-in {
+            margin-top: 0;
+            border-top: 0.5px solid #CDCED2;
+        }
+    }
+}
+
+.show-map-container {
+    width: inherit;
+    height: 90px;
+    background: url(/assets/icons/web/img/Map.svg) no-repeat center;
+    background-size: cover;
+    margin-bottom: 1.5rem;
+    display: grid;
+    place-items: center;
+
+    button {
+        font-size: 13px;
+        height: 29px;
+        line-height: 1.5;
+        line-height: unset;
+        cursor: pointer;
+        border: 1px solid var(--color-main-purple);
+        padding: 0.25rem 0.75rem;
+        background-color: var(--color-primary-white);
+
+        @include on-hover {
+            background-color: var(--color-main-purple);
+        }
+    }
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>CE254FC6-8CCD-4ED2-8AF0-9A938C0B39F4</title>
+    <defs>
+        <path d="M3,0 L877,0 C878.656854,-3.04359188e-16 880,1.34314575 880,3 L880,297 C880,298.656854 878.656854,300 877,300 L3,300 C1.34314575,300 2.02906125e-16,298.656854 0,297 L0,3 C-2.02906125e-16,1.34314575 1.34314575,3.04359188e-16 3,0 Z" id="path-1"></path>
+        <filter x="-2.6%" y="-7.5%" width="105.1%" height="115.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="470" height="170" rx="3"></rect>
+        <filter x="-8.1%" y="-20.0%" width="116.2%" height="144.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Loader" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="T-Cars-Expired" transform="translate(-831.000000, -345.000000)">
+            <rect fill="#FBFBFB" x="0" y="0" width="1280" height="1680"></rect>
+            <g id="Car-Rent-Selected" transform="translate(350.000000, 304.000000)">
+                <g id="Bg">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Center" transform="translate(300.000000, 20.000000)">
+                    <text id="Citroen-C3-or-simila" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" font-size="23" font-weight="normal">
+                        <tspan x="0" y="22" fill="#000000">Renault Captur </tspan>
+                        <tspan x="182.459" y="22" font-size="13" fill="#828282">or similar</tspan>
+                    </text>
+                    <text id="Economy" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" font-size="14" font-weight="400" line-spacing="20" fill="#000000">
+                        <tspan x="0" y="42">Economy</tspan>
+                    </text>
+                </g>
+            </g>
+            <rect id="Fade" fill-opacity="0.3" fill="#000000" fill-rule="nonzero" x="0" y="0" width="1280" height="1680"></rect>
+            <g id="Modal-Blue-Btns" transform="translate(405.000000, 325.000000)">
+                <g id="Bg">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <path d="M3,0 L467,0 C468.656854,-3.04359188e-16 470,1.34314575 470,3 L470,64 L470,64 L0,64 L0,3 C-2.02906125e-16,1.34314575 1.34314575,3.04359188e-16 3,0 Z" id="Title" fill="#F3F8FF"></path>
+                <g id="Icons/Info" transform="translate(426.000000, 20.000000)">
+                    <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                    <path d="M12,2 C6.48,2 2,6.48 2,12 C2,17.52 6.48,22 12,22 C17.52,22 22,17.52 22,12 C22,6.48 17.52,2 12,2 Z M13,17 L11,17 L11,11 L13,11 L13,17 Z M13,9 L11,9 L11,7 L13,7 L13,9 Z" id="Icon-Info" fill="#298AFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

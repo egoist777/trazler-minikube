@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>42E5D95B-E713-4B1D-9E27-5AFF5B50810B</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Round-Trip" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="T-Main-D-Address-Type" transform="translate(-62.000000, -390.000000)">
+            <g id="Address-Dropdown" transform="translate(50.000000, 240.000000)">
+                <g transform="translate(0.000000, 70.000000)" id="List">
+                    <g transform="translate(10.000000, 70.000000)">
+                        <g id="Icons/Compass" transform="translate(0.000000, 8.000000)">
+                            <g id="baseline-explore-24px" transform="translate(0.000000, 0.000000)">
+                                <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                                <path d="M12,10.9 C11.39,10.9 10.9,11.39 10.9,12 C10.9,12.61 11.39,13.1 12,13.1 C12.61,13.1 13.1,12.61 13.1,12 C13.1,11.39 12.61,10.9 12,10.9 Z M12,2 C6.48,2 2,6.48 2,12 C2,17.52 6.48,22 12,22 C17.52,22 22,17.52 22,12 C22,6.48 17.52,2 12,2 Z M14.19,14.19 L6,18 L9.81,9.81 L18,6 L14.19,14.19 Z" id="Shape" fill="#7A65E1" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

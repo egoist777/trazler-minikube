@@ -1,0 +1,15 @@
+.recommended-block {
+  position: relative;
+  margin-top: 0;
+  z-index: 1;
+
+  &__content {
+    position: absolute;
+    top: 0.5rem;
+    left: -1px;
+
+    &.hotel-block {
+        top: 1.688rem;
+    }
+  }
+}

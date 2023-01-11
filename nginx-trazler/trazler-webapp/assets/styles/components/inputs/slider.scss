@@ -1,0 +1,56 @@
+@import "utils/mixins";
+
+.tz-slider-container {
+  .slider {
+    .ngx-slider-pointer {
+      box-shadow: 0 1px 3px rgb(122 101 225 / 50%);
+      z-index: 1;
+      width: 21px;
+      height: 21px;
+      cursor: pointer;
+      background-color: #ffffff;
+      border-radius: 50%;
+      border: 2px solid #7a65e1;
+      outline-color: #7a65e1;
+
+      @include mobile {
+        width: 1.299375rem;
+        height: 1.25rem;
+      }
+
+      &:after {
+        display: none;
+      }
+    }
+
+    .ngx-slider-selection-bar {
+      .ngx-slider-selection {
+        background-color: var(--color-main-purple);
+        height: 2px;
+      }
+    }
+
+    .ngx-slider-bar-wrapper {
+      margin-top: -20px;
+
+      .ngx-slider-span.ngx-slider-bar {
+        height: 2px;
+      }
+    }
+
+    .ngx-slider-bubble {
+      display: none;
+    }
+  }
+
+    @include firefox-only {
+        ngx-slider {
+            width: 99.5%;
+        }
+    }
+
+}
+
+.mob-slider-vertical-text-divider {
+    font-weight: 100;
+}

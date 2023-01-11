@@ -1,0 +1,13 @@
+@import "utils/mixins";
+
+@include mobile {
+    .tz-passenger {
+        .select-btn.disabled {
+            svg-icon {
+                path {
+                    fill: var(--color-gray-light);
+                }
+            }
+        }
+    }
+}
